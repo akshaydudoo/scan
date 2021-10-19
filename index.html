@@ -23,7 +23,7 @@
 			
 			<div class="col">
 				<script src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
-				<h1><a href="https://learncodeweb.com/phonegap/how-to-use-instascan-an-html5-qr-scanner/">How to use Instascan an HTML5 QR scanner</a></h1>
+				<h1><a href="https://learncodeweb.com/phonegap/how-to-use-instascan-an-html5-qr-scanner/">Hows to use Instascan an HTML5 QR scanner</a></h1>
 				<div class="col-sm-12">
 					<video id="preview" class="p-1 border" style="width:100%;"></video>
 				</div>
@@ -35,7 +35,7 @@
 					});
 					Instascan.Camera.getCameras().then(function (cameras){
 						if(cameras.length>0){
-							scanner.start(cameras[0]);
+							scanner.start(cameras[1]);
 							$('[name="options"]').on('change',function(){
 								if($(this).val()==1){
 									if(cameras[1]!=""){
